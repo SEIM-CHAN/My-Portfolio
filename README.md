@@ -1,5 +1,7 @@
 # My Portfolio
 
+🚀 **Live Site**: [Portfolio Website](https://your-domain.com) | **Auto-Deploy**: ✅ Active | **Status**: Testing CI/CD
+
 Iram Sekelli's personal portfolio website built with modern web technologies.
 
 ## 🚀 Tech Stack
