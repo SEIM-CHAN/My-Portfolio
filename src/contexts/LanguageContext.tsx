@@ -129,7 +129,7 @@ const translations = {
     'timeline.3.description': 'Through approximately 3 years of CTO experience, significantly improved technical leadership and team management skills.',
     
     'timeline.4.title': 'Joined as Engineer',
-    'timeline.4.company': 'Voyency Co., Ltd.',
+    'timeline.4.company': 'Buoyancy Co., Ltd.',
     'timeline.4.description': 'Leveraging technical skills in a new environment as a team member in development operations. Aiming for further skill improvement while utilizing past experience.',
     
     'timeline.5.title': 'Started Contract Work',
