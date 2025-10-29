@@ -107,15 +107,15 @@ export default function TimelineSection() {
       type: 'work',
       technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Docker', 'Python']
     },
-    {
-      id: 5,
-      date: '2025-10',
-      title: t('timeline.5.title'),
-      company: t('timeline.5.company'),
-      description: t('timeline.5.description'),
-      type: 'work',
-      technologies: ['Web Development', 'Frontend', 'Backend']
-    }
+    // {
+    //   id: 5,
+    //   date: '2025-10',
+    //   title: t('timeline.5.title'),
+    //   company: t('timeline.5.company'),
+    //   description: t('timeline.5.description'),
+    //   type: 'work',
+    //   technologies: ['Web Development', 'Frontend', 'Backend']
+    // }
   ];
   
   return (
