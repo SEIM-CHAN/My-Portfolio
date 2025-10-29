@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iramsekelli.dev/sitemap.xml
