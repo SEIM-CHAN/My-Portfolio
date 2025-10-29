@@ -17,7 +17,7 @@ const translations = {
     // Hero Section
     'hero.greeting': 'Hello, I\'m Iram Sekelli',
     'hero.title': 'フルスタックソフトウェアエンジニア',
-    'hero.description': 'フルスタックエンジニアとして、Next.js、React、TypeScriptを使用したモダンなWebアプリケーション開発に取り組んでいます。',
+  'hero.description': 'フルスタックエンジニアとして、Next.js、React、TypeScript、Python、Djangoを使用したモダンなWebアプリケーション開発に取り組んでいます。',
     
     // Navigation
     'nav.timeline': 'Career Timeline',
@@ -96,7 +96,7 @@ const translations = {
     // Hero Section
     'hero.greeting': 'Hello, I\'m Iram Sekelli',
     'hero.title': 'Full-Stack Software Engineer',
-    'hero.description': 'As a full-stack engineer, I work on modern web application development using Next.js, React, and TypeScript.',
+  'hero.description': 'As a full-stack engineer, I work on modern web application development using Next.js, React, TypeScript, Python, and Django.',
     
     // Navigation
     'nav.timeline': 'Career Timeline',
