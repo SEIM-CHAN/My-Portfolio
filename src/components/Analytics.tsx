@@ -12,12 +12,26 @@ export default function Analytics() {
 
     if (typeof window === 'undefined') return
 
-    // Send page_view on route change
-    try {
-      ;(window as any).gtag?.('event', 'page_view', { page_path: pathname })
-    } catch (e) {
-      // no-op
+    // Wait for gtag to be available and send page_view
+    const sendPageView = () => {
+      try {
+        if ((window as any).gtag) {
+          ;(window as any).gtag('event', 'page_view', { 
+            page_path: pathname,
+            page_location: window.location.href,
+            page_title: document.title
+          })
+        } else {
+          // Retry after a short delay if gtag is not ready
+          setTimeout(sendPageView, 100)
+        }
+      } catch (e) {
+        // no-op
+      }
     }
+
+    // Initial send with small delay to ensure gtag is loaded
+    setTimeout(sendPageView, 100)
   }, [pathname])
 
   return null
