@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="ja" suppressHydrationWarning>
       {/* Global site tag (gtag.js) - Google Analytics */}
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID || 'G-05YJY0M76Y'}`}
         strategy="afterInteractive"
       />
       <Script
@@ -32,7 +32,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);} 
             gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', { send_page_view: false });
+            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID || 'G-05YJY0M76Y'}', { send_page_view: false });
           `,
         }}
       />
