@@ -43,7 +43,7 @@ const translations = {
     'timeline.1.company': '大原簿記法律専門学校柏校',
     'timeline.1.description': 'システム開発の基礎から応用まで幅広く学習。プログラミングスキルの土台を築き、実践的な開発経験を積みました。',
     
-    'timeline.2.title': '企業・CTO就任',
+    'timeline.2.title': '起業・CTO就任',
     'timeline.2.description': 'CTOとして技術戦略の策定から実装まで幅広く担当。チーム構築、技術選定、システム設計を主導し、事業成長に貢献しました。',
     
     'timeline.3.title': 'CTO退任',
