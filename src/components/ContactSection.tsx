@@ -75,8 +75,8 @@ export default function ContactSection() {
                 <a
                   key={index}
                   href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={link.name === 'Email' ? undefined : '_blank'}
+                  rel={link.name === 'Email' ? undefined : 'noopener noreferrer'}
                   className="group relative p-6 md:p-8 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 text-center overflow-hidden"
                 >
                   {/* Background gradient animation */}
@@ -124,7 +124,7 @@ export default function ContactSection() {
                   {t('contact.ready.description')}
                 </p>
                 <a
-                  href="mailto:iramsekelli@gmail.com?subject=Portfolio%20Contact&body=Hello%20Iram,%0A%0AI%20would%20like%20to%20discuss..."
+                  href="mailto:iramsekelli@gmail.com?subject=Portfolio Contact&body=Hello Iram,%0D%0A%0D%0AI would like to discuss..."
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary to-blue-accent hover:from-primary-dark hover:to-primary text-white font-semibold rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
